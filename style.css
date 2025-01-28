@@ -1,20 +1,20 @@
 *{
    margin:0;
    padding: 0;
-   font-family:'poppins',sans-serif ;
+   font-family:"Roboto", "Helvetica", "Arial", sans-serif ;
    box-sizing: border-box;
 }
 html{
    scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: #c1dcf7;
     color: #fff;
 }
 #header{
     width:100% ;
     height: 100vh;
-    background: rgb(0, 0, 0);
+    background:#c1dcf7;
     /* background-image:url(image/blackbackground.jpg); */
     background-size: cover;
     background-position: center;
@@ -23,6 +23,7 @@ body{
 .container{
     padding: 10px 10%;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -41,7 +42,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: #0c253d;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -51,7 +52,7 @@ nav ul li a::after{
     content:'';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #0c253d;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -70,9 +71,13 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    color:#4b5865 ;
 }
 .header-text h1 span{
-   color: #B83737;
+   color:#0c253d;
+}
+.header-text p{
+   color:#4b5865;
 }
 
  /* about */
@@ -97,12 +102,13 @@ nav ul li a:hover::after{
  }
  .about-col-2{
     flex-basis: 60%;
+    color: #41596f;
  }
 
  .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: white;
+    color: #0c253d;
  }
 
  .tab-titles{
@@ -125,7 +131,7 @@ nav ul li a:hover::after{
     left: 0;
     bottom: -8px;
     position: absolute;
-    background: #ff004f;
+    background: #0c253d;
     transition: 0.5s;
  }
 
@@ -139,7 +145,7 @@ nav ul li a:hover::after{
  }
 
  .tab-contents ul li span{
-    color:#b54769;
+    color:#0c253d;
     font-size: 14px;
  }
 
@@ -220,7 +226,7 @@ display: none;
 .layer{
    width: 100%;
    height: 0;
-   background: linear-gradient(rgba(0,0,0,0.2), #ff004f);
+   background: linear-gradient(#88BDF2, #0c253d);
    border-radius: 10px;
    position: absolute;
    left: 0;
@@ -244,7 +250,7 @@ display: none;
 
 .layer a{
    margin-top: 20px;
-   color: #ff004f;
+   color: #0c253d;
    text-decoration: none;
    font-size: 18px;
    line-height: 60px;
@@ -278,7 +284,7 @@ height: 100%;
 }
 
 .contact-left p i{
-   color: #ff004f;
+   color: #0c253d;
    margin-right: 15px;
    font-size: 25px;
 }
@@ -290,12 +296,12 @@ height: 100%;
  text-decoration: none;
  font-size: 30px;
  margin-right: 15px;
- color: #ababab;
+ color: #6A89A7;
  display: inline-block;
 }
 
 .social-icons a:hover{
-   color: #ff004f;
+   color: #0c253d;
    transform: translateY(-5px);
 }
 
@@ -303,7 +309,7 @@ height: 100%;
    display: block;
    margin: 50px auto;
    width: fit-content;
-   border: 1px solid #ff004f;
+   border: 1px solid #0c253d;
    padding: 14px 50px;
    border-radius: 6px;
    text-decoration: none;
@@ -312,12 +318,12 @@ height: 100%;
 }
 
 .btn:hover{
-   background: #ff004f;
+   background: #0c253d;
 }
 
 .btn.btn2{
    display:inline-block;
-   background: #ff004f;
+   background: #0c253d;
 }
 .contact-right form{
 width: 100%;
@@ -326,10 +332,10 @@ form input, form textarea{
    width: 100%;
    border: 0;
    outline: none;
-   background: #262626;
+   background: #88BDF2;
    padding: 15px;
    margin: 15px 0;
-   color: #fff;
+   color: #334351;
    font-size: 18px;
    border-radius: 6px;
 }
@@ -345,13 +351,13 @@ form btn2{
    width: 100%;
    text-align: center;
    padding: 25px 0;
-   background: #262626;
+   background: #0c253d;
    font-weight: 300;
    margin-top: 20px;
 }
 
 .copyright i{
-   color: #ff004f;
+   color: white;
 }
 
 
@@ -378,7 +384,7 @@ nav .fa-solid{
       font-size: 25px;
    }
    nav ul{
-      background: #ff004f;
+      background: #384959;
       position: fixed;
       top: 0;
       right: -200px;
@@ -417,13 +423,15 @@ nav .fa-solid{
    .contact-left, .contact-right{
       flex-basis: 100%;
    }
+  
    .copyright{
       font-size: 14px;
    }
+   
 }
 
 #msg{
-   color: #61b752;
+   color: #0c253d;
    margin-top: -40px;
    display: block;
 }
